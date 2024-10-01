@@ -40,3 +40,22 @@ Commit som jag gjorde:
  varför: det är mer effektivt att ha en hel map för planering istället för en textfil
  vad: tog bort planerings textfil, skapade en planeringsmap samt en textfil för varje burgare"
 
+Alla har gjort sina enga APIer för sina egna burgare
+Alla skapade en ejs fil under Views map för sina egna burgare
+commit som jag gjorde: 
+titel: API 
+vad: skapade en API för mitt burgare, skapade en ejs.fil för 
+     denna API under Views map
+varför: För att jag ska skriva ändringar som användaren kan göra i mitt
+        burgares API 
+
+Jag upptäkta att jag råkade skapa en ny reflektions map med en fil som heter naya.text
+  som är exakt samma fil som redan finns under original reflektions map så jag 
+  raderade den nya mappen och gjorde commit 
+commit jag gjorde: 
+titel: raderade en map
+vad: raderade en map som jag råkat göra
+varför: jag har redan filen under en annan map
+
+commit: 
+skrev i mitt ingengördagbok
