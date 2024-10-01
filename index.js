@@ -13,5 +13,10 @@ app.get("/Menu", (req, res) => {
     res.render("Menu")
 })
 
+
+app.get("/GitHub_Burger", (req, res) => {
+    res.render("GitHub_Burger")
+})
+
 app.listen(1337)
 
