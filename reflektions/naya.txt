@@ -1,0 +1,56 @@
+Projektsnsamn: GitBurger
+Git server: GitHub
+texteditor: VScode
+API ska vara localhost
+
+planering: Mohamad ska skapa projektet och filer
+           Sedra ska installera json packet som behövs
+           ... ska skapa en fil där alla api punkter ligger. 
+           API som vi ska skapa:  
+           - en api för meny, en för slutlig beställning (BurgerOrder)
+           - en för varje burgare där användaren kan ändra på sin beställning
+           - en för KitchenView 
+           ... ska fixa databaser 
+           Efter att ha skapat allt detta, vi ska skapa en barnch för varje person 
+              så att vi bara skriver på det vi har ansvaret vår i vår branch och på 
+              detta sättet slipper vi ha konflikter
+
+De första veckorna: 
+Jag och mitt grupp läste uppgiften och lärde oss begrepp som vi inte kunde innan. 
+Vi skapade en text projekt och vi har testat skapa de olika filer 
+  för att träna på GitHub och kommandon. 
+Detta tog flera veckor. 
+
+27 september 2024: 
+Mohamad skapade projektet i Github och skickade länken. 
+Han skapade en map som heter "Reflektioner" och skapde filer för alla under den
+  dessa filer ska vara våra ingengörsdagboker. 
+Mohamad skapade också en textfil som heter "planering"
+
+1 october 2024: 
+Jag accepterade invitation för projektet och öppnade den. 
+Jag tog bort textfilen "planering". 
+Jag skapade en map istället som heter "planering" och filer för varje varutyp under den
+  för att jag tänkte att det är mer effektivt att ha en textfil för varje varutyp 
+  istället för bara en textfil samt vi slipper få konflikter som kan uppstå om vi 
+  alla skriver på en och samma fil. 
+
+Jag gjorde en commit för textfilen som jag raderade och mapen som jag skapade med 
+textfiler under. 
+Commit som jag gjorde: 
+"titel: skapa textfiler och planerings map
+ varför: det är mer effektivt att ha en hel map för planering istället för en textfil
+ vad: tog bort planerings textfil, skapade en planeringsmap samt en textfil för varje burgare"
+
+Sedra har installerat packege-lock.json. 
+Hon har skapat "package.json" filen och skrev information om projektet
+hon skapade "index" filen där alla apier ska läggas där  
+
+Jag upptäkte att hag har glömt skriva ".txt" i slutet av textfiler under planering
+  så jag adderade de. Sen har jag börjat i mitt planering. 
+Jag gjorde en commit för allt detta och för det jag skrev här i mitt journal. 
+Commit som jag gjorde: 
+"titel: filnamn, mitt reflektion och mitt planering
+vad: ändrat reflektioners filens namn, adderat ".txt" i slutet. 
+     Skrev i mitt ingenjörsdagbok och skrev i mitt planering
+varför: för att filerna ska vara textfiler och inte något annat

@@ -8,4 +8,4 @@ sallad, vitlöksås, tomat, lök
 add: 
 tartarsås, tryffelmayo, originalsås
 ost, saltgurka, avokado, jalepino
-picklad lök, karamiliserat lök 
+picklad lök, karamiliserat lök  
