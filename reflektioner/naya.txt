@@ -39,3 +39,4 @@ Commit som jag gjorde:
 "titel: skapa textfiler och planerings map
  varför: det är mer effektivt att ha en hel map för planering istället för en textfil
  vad: tog bort planerings textfil, skapade en planeringsmap samt en textfil för varje burgare"
+
