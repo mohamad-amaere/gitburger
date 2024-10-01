@@ -24,5 +24,8 @@ app.get("/GitHub_Burger", (req, res) => {
     res.render("GitHub_Burger")
 })
 
+app.get("/Css_Burger", (req, res) => {
+    res.render("Css_Burger")
+})
 app.listen(1337)
 
