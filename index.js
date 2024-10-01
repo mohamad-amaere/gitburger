@@ -13,6 +13,9 @@ app.get("/Menu", (req, res) => {
     res.render("Menu")
 })
 
+app.get("/VS_Burger", (req, res) => {
+    res.render("Vs_burger")
+})
 
 app.get("/GitHub_Burger", (req, res) => {
     res.render("GitHub_Burger")
