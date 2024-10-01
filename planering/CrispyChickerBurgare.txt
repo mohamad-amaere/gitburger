@@ -1,0 +1,11 @@
+
+Crispy Chicken Burgare (python): 
+ingredienser: Kyckling, sallad, vitlöksås, tomat, lök 
+
+ta bort: 
+sallad, vitlöksås, tomat, lök 
+
+add: 
+tartarsås, tryffelmayo, originalsås
+ost, saltgurka, avokado, jalepino
+picklad lök, karamiliserat lök 
