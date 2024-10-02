@@ -6,6 +6,11 @@
     <title>GitBurger</title>
 </head>
 <body>
-    
+    <% for (const item of menu) { %>
+    <div>
+        <h3><%= item.burger_name %></h3>
+        <p><%= item.price %></p>
+    </div>
+    <% } %>
 </body>
 </html>
