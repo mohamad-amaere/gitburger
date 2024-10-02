@@ -12,5 +12,11 @@ async function searchBurger(searchString) {
 	return menu;
 }
 
-module.exports = { getMenu, searchBurger };
+async function GetBurger(id) {
+	const query = `SELECT * FROM burgers WHERE id = ${id}`
+	const menu = await db.query(query, { type: QueryTypes.SELECT });
+	return menu;
+}
+
+module.exports = { getMenu, searchBurger, GetBurger };
 
