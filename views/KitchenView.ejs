@@ -1,0 +1,22 @@
+const orderButton = document.getElementById('orderButton'); 
+orderButton.addEventListener('click', () => { 
+    const order = {
+        items: <div burger_order=""></div>, 
+        total: ...
+    };
+
+    fetch('http://localhost:3000/order', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(order)
+    })
+    .then(response => response.text())
+    .then(data => {
+        console.log(data); 
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
