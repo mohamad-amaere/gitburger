@@ -13,26 +13,6 @@ app.get("/Menu", (req, res) => {
     res.render("Menu")
 })
 
-app.get("/VS_Burger", (req, res) => {
-    res.render("Vs_burger")
-})
-
-app.get("/Docker_Burger", (req, res) => {
-    res.render("Docker_Burger")
-})
-
-app.get("/GitHub_Burger", (req, res) => {
-    res.render("GitHub_Burger")
-})
-
-app.get("/Css_Burger", (req, res) => {
-    res.render("Css_Burger")
-})
-
-app.get("/Python_Burger", (req, res) => {
-    res.render("Python_Burger")
-})
-
 app.get("/", async (req, res) => {
     const search_query = req.query.serach_burger;
     let menu = [];
