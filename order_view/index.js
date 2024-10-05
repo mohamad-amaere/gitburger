@@ -36,5 +36,36 @@ app.get("/burger/:burgerId", async (req, res) => {
 	});
 });
 
+app.post("/burger/:burgerId", async (req, res) => {
+	const body = req.body;
+	const burgerId = req.params.burgerId;
+	const quantity = body.quantity;
+	const includedIngredients = body.ingredients;
+	const price = req.body.price;
+
+	let cart = req.cookies.cart || [];
+
+	cart.push({
+		burgerId,
+		quantity,
+		IncludedIngredients: includedIngredients,
+		price: Number(price) * Number(quantity)
+	});
+
+	res.cookie("cart", cart);
+
+	res.redirect("/");
+});
+
+app.post("/order", async (req, res) => {
+	const cart = req.cookies.cart || [];
+
+	await menuService.createOrder(cart);
+
+	res.clearCookie("cart");
+	res.redirect(`/`);
+});
+
+
 app.listen(1337)
 
