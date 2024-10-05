@@ -12,11 +12,17 @@ async function searchBurger(searchString) {
 	return menu;
 }
 
-async function GetBurger(id) {
-	const query = `SELECT * FROM burgers WHERE id = ${id}`
-	const menu = await db.query(query, { type: QueryTypes.SELECT });
-	return menu;
+async function getBurgerById(burgerId) {
+	const query = `SELECT * FROM burgers WHERE id = ${burgerId}`;
+	const burger = await db.query(query, { type: QueryTypes.SELECT });
+	return burger;
 }
 
-module.exports = { getMenu, searchBurger, GetBurger };
+async function getBurgerIngredients(burgerId) {
+	const query = `SELECT * FROM burger_ingrediants WHERE burger_id = ${burgerId}`;
+	const ingredients = await db.query(query, { type: QueryTypes.SELECT });
+	return ingredients;
+}
+
+module.exports = { getMenu, searchBurger, getBurgerById, getBurgerIngredients };
 

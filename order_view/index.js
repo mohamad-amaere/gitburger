@@ -24,12 +24,16 @@ app.get("/", async (req, res) => {
     res.render("index", { menu});
 });
 
-app.getMaxListeners("/burger/:burgerId", async (req, res) => {
-    const burgerId = req.params.burgerId;
-    const result = await menuService.gitBurgerById(burgerId);
-    res.render("burgerInfo", { burger: result[0]});
-});
+app.get("/burger/:burgerId", async (req, res) => {
+	const burgerId = req.params.burgerId;
+	const result = await menuService.getBurgerById(burgerId);
+	const ingredients = await menuService.getBurgerIngredients(burgerId);
 
+	res.render("burgerInfo", {
+		burger: result[0],
+		ingredients
+	});
+});
 
 app.listen(1337)
 
