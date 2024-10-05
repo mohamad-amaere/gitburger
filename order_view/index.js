@@ -63,7 +63,12 @@ app.post("/order", async (req, res) => {
 	await menuService.createOrder(cart);
 
 	res.clearCookie("cart");
-	res.redirect(`/`);
+	res.redirect(`/thankyou`);
+});
+
+app.get("/thankyou", async (req, res) => {
+	const cart = req.cookies.cart || [];
+	res.render("thankyou", { cart });
 });
 
 
