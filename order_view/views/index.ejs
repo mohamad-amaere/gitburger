@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gitburger</title>
+
+    <style> 
+        .burgers {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .burger {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+  <%- include('partials/headItems', {cart}) %>
 </head>
 <body>
+  <%- include('partials/navbar') %>
 <form> 
     <input type="text" name="search_burger" id="search_burger">
     <button type="submit">search</button>
 </form>
-<% for (const item of menu) {%> 
-    <div>
-        <h3><%= item.burger_name %></h3>
-        <p><%= item.price %></p>
-    </div>
+<div class="burgers">
+    <% for (const item of menu) {%>
+        <a href="/burger/<%= item.id %>" class="burger">
+            <h3><%= item.burger_name %></h3>
+            <p><%= item.price %></p>
+        </a>
     <% } %>
+</div>
 </body>
 </html>

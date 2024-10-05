@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gitburger - <%= burger.burger_name %></title>
+  <%- include('partials/headItems', {cart}) %>
+
+</head>
+<body>
+  <%- include('partials/navbar') %>
+  <%= burger.burger_name %>
+  <p><%= burger.price %> Kr</p>
+  <form method="post" action="/burger/<%= burger.id %>">
+    <input type="number" name="quantity" placeholder="quantity" min="1" max="5" value="1">
+    <% for(const item of ingredients) { %>
+      <input type="checkbox" name="ingredients" value="<%= item.id %>" checked>
+      <label for="ingredient-<%= item.id %>"><%= item.ingrediant_name %></label>
+    <% } %>
+    <input type="text" value="<%= burger.price %>" name="price" hidden readonly>
+    <button type="submit">beställ</button>
+  </form>
+</body>
+</html>
