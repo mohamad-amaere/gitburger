@@ -11,7 +11,9 @@ app.use(cookieParser());
 app.set("view engine", "ejs");
 
 app.get("/", async (req, res) => {
-	res.send("Hello, kitchen!");
+	const orders = await kitchenService.getOrders();
+
+	res.render("index", { orders });
 });
 
 app.listen(1338);
