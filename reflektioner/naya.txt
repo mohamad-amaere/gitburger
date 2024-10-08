@@ -59,3 +59,8 @@ varför: jag har redan filen under en annan map
 
 commit: 
 skrev i mitt ingengördagbok
+
+alla skapade en branch från original för att när vi ska skriva eller ändra i 
+  projektet, så gör vi det i var sin branch. Då slipper vi få massa konflikter 
+  mitt branch heter: naya
+

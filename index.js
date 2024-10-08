@@ -1,8 +1,14 @@
 const express = require("express")
 const menuService  = require("./services/menuService")
 const app = express();
+app.use(express.json());
 
 app.set("view engine", "ejs");
+
+app.post('/order', (req, res) => {
+    const order = req.body;
+    res.status(201).send('Order received');
+});
 
 app.get("/GitBurger", async (req, res) => {
     const menu = await menuService.getMenu();
