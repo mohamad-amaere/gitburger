@@ -25,5 +25,15 @@ services:
     depends_on:
       - db
 
+  kitchen_view:
+    build: ./kitchen_view
+    restart: unless-stopped
+    container_name: gitburger_server_kitchen
+    tty: true
+    ports:
+      - "1338:1338"
+    depends_on:
+      - db
+
 volumes:
   mysql_data:

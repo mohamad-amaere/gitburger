@@ -1,0 +1,13 @@
+Sammanfattning av grupparbetet - Beställningssida
+
+Under projektets gång har jag, tillsammans med gruppen, arbetat med att skapa en beställningssida. Mitt bidrag har varit att designa och implementera API
+och säkerställa databasanslutning samt bidra till frontend-implementationen. Några specifika insatser jag gjort inkluderar:
+
+API-utveckling: Skapade funktionaliteten för att hämta data om burgare genom GetBurger.
+Kodhantering: Gjorde en "pull request" för att sammanföra förändringar med huvudgrenen, vilket inkluderade förbättringar i UI och information om specifika burgare.
+Databashantering: Implementerade en tjänst för databasanslutning, vilket underlättar interaktionen mellan API
+och databasen.
+Databas artitektur: Jag jobbade med gruppen och hade en huvudsaklig roll i designen av vår database, jag tog i åtanken hur vi ska referera dem olika tabellerna till varanadra
+och såg till att det ska vara så enkelt som möjligt för utvecklaren.
+Frontend-design: Bidrog till utformningen av burgerinformationssidan och förbättrade användargränssnittet (UI) för att säkerställa en smidig användarupplevelse.
+Genom att samarbeta med gruppen har vi tagit ett helhetsgrepp om projektet, vilket har inneburit ett stort fokus på både backend och frontend för att skapa en välfungerande och användarvänlig beställningssida.
