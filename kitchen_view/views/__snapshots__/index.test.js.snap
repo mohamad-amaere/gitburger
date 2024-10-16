@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.ejs should match the snapshot 1`] = `
+"<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Kitchen view</h1>
+  
+    <div>
+      <h2>Order ID: 123</h2>
+      <p>Order Date: 2023-10-01</p>
+      <h2>Items</h2>
+      <ul>
+        
+          <li>Cheeseburger - 2</li>
+
+          <h4>Ingredient customization</h4>
+          
+            <li>ExtraCheese</li>
+          
+            <li>NoOnions</li>
+          
+        
+
+      </ul>
+    </div>
+  
+
+</body></html>"
+`;
