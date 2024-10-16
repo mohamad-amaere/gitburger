@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`burgerInfo.ejs should render correctly 1`] = `
+"<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gitburger - Cheeseburger</title>
+  [object Promise]
+
+</head>
+<body>
+  [object Promise]
+  Cheeseburger
+  <p>50 Kr</p>
+  <form method="post" action="/burger/1">
+    <input type="number" name="quantity" placeholder="quantity" min="1" max="5" value="1">
+    
+      <input type="checkbox" name="ingredients" value="1" checked>
+      <label for="ingredient-1">Lettuce</label>
+    
+      <input type="checkbox" name="ingredients" value="2" checked>
+      <label for="ingredient-2">Tomato</label>
+    
+      <input type="checkbox" name="ingredients" value="3" checked>
+      <label for="ingredient-3">Cheese</label>
+    
+    <input type="text" value="50" name="price" hidden readonly>
+    <button type="submit">beställ</button>
+  </form>
+</body>
+</html>"
+`;

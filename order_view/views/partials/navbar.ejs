@@ -1,0 +1,104 @@
+<style>
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightblue;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li {
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 1rem .5rem;
+    border-radius: 10%;
+  }
+
+  li:hover {
+    background-color: #e0e0e0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+  }
+
+  .amountInCart {
+    margin-left: 5px;
+  }
+
+  .cart-dialog {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  .cart-dialog.active {
+    display: block;
+  }
+</style>
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+  </ul>
+
+  <div>
+    <span class="material-symbols-outlined" id="cart-button">
+      shopping_cart
+    </span>
+    <span class="amountInCart"><%= cart.length %></span>
+  </div>
+</nav>
+
+<div class="cart-dialog" id="cart-dialog">
+  <h3>Your Cart</h3>
+  <ul>
+    <% cart.forEach(function(item) { %>
+      <li><%= item.burgerId %> - <%= item.quantity %></li>
+    <% }); %>
+  </ul>
+  <p>total: <%= cart.reduce((acc, item) => Number(acc) + Number(item.price), 0) %> Kr
+  <form method="post" action="/order">
+    <button type="submit">Place order</button>
+  </form>
+</div>
+
+<script>
+  document.getElementById('cart-button').addEventListener('click', function() {
+    var cartDialog = document.getElementById('cart-dialog');
+    cartDialog.classList.toggle('active');
+  });
+
+  document.addEventListener('click', function(event) {
+    var cartDialog = document.getElementById('cart-dialog');
+    if (!cartDialog.contains(event.target) && event.target.id !== 'cart-button') {
+      cartDialog.classList.remove('active');
+    }
+  });
+</script>

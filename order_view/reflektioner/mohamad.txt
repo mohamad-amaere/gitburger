@@ -1,0 +1,35 @@
+Ingenjörsdagbok:
+    Projekt: gitburger:
+
+
+
+Commits:
+
+    Commit: Get started
+        Varför: Initiera projektet och skapa en grundläggande projektstruktur.
+        Vad: Skapade ett nytt repository för projektet och lade till nödvändiga filer för att starta utvecklingen.
+
+    Commit: css burger
+        Varför: Börja designa användargränssnittet för burger-sektionen.
+        Vad: Skapade en API-fil och en EJS-fil för burger-komponenten. Detta var nödvändigt för att starta designen och bygga frontend-komponenterna för att visa burgar-menyn.
+
+    Commit: Merge pull request #1 from init-databas
+        Varför: Initiera databasstrukturen för projektet.
+        Vad: Skapade databasmodeller och migreringar för att hantera beställningar, användare och menyer i systemet. Detta steg var kritiskt för att kunna lagra och hantera information om produkter och beställningar.
+
+    Commit: Added cart support
+        Varför: Implementera kundvagnsfunktionalitet för att möjliggöra att användarna kan lägga till produkter innan de går vidare till kassan.
+        Vad: Skapade funktioner för att hantera kundvagnen, såsom att lägga till och ta bort produkter samt uppdatera kvantiteter.
+
+    Commit: Init kitchen view
+        Varför: Implementera en köksvy för att restaurangpersonalen ska kunna se och hantera inkommande beställningar.
+        Vad: Skapade grunden för köksvyn där personalen kan se alla aktiva beställningar och deras status.
+
+    Commit: Added run script for kitchen view
+        Varför: Förenkla arbetsflödet genom att lägga till ett script som automatiskt startar köksvyn.
+        Vad: Implementerade ett "run"-skript i package.json för att snabbt kunna köra köksvyn utan att manuellt starta servern varje gång.
+
+    Commit: Installed nodemon
+        Varför: För att förbättra utvecklingsmiljön genom att automatiskt starta om servern vid kodändringar.
+        Vad: Installerade Nodemon som en dev-dependency för att effektivisera utvecklingen genom att minska behovet av manuell omstart av servern vid varje kodändring
+

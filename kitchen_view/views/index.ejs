@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Kitchen view</h1>
+  <% for(const order of orders) { %>
+    <div>
+      <h2>Order ID: <%= order.orderId %></h2>
+      <p>Order Date: <%= order.orderDate %></p>
+      <h2>Items</h2>
+      <ul>
+        <% for(const item of order.items) { %>
+          <li><%= item.item.burger_name %> - <%= item.quantity %></li>
+
+          <h4>Ingredient customization</h4>
+          <% for(const ingredient of item.ingredients) { %>
+            <li><%= ingredient.customization %><%= ingredient.name %></li>
+          <% } %>
+        <% } %>
+
+      </ul>
+    </div>
+  <% } %>
+</body>
+</html>
