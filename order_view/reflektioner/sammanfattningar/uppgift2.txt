@@ -1,0 +1,43 @@
+
+Namn på alla i teamet:
+
+Mohamad Amaere
+Maram Alshbli
+Naya Mathbout 
+Tala Amaere
+Sedra Abodaher
+
+2. Länk till projektets sida på git-servern: https://github.com/mohamad-amaere/gitburger
+
+3. Kort sammanfattning om vad ni implementerat. Beskriv med 5–10 meningar
+vad ni gjort och hur ni tänkt för
+• Projektet i stort
+• Varje container
+• Varje modul
+
+vi gjorde en restaurang beställningssystem. Vi gjorde tre containers. En för
+  orderview (menustore) där vi gjorde en my sql container för att lagra vårt 
+  data i det.  Vi gjorde en webbgränssnitt för att hämta alla beställningar 
+  som heter KitchenView i sitt eget container. Vi gjorde en sista container 
+  för burgerorder där man får beställa hamburgare. Vi gjorde snapshot testing 
+  på våra sidor för att säkerställa att de ser ut som de ska.
+
+Våra erfarenheter om hur projektet gick att genomföra: 
+
+Det som gick bra är att samarbeta. Uppgiften blev mycket lättare när vi delade arbetet 
+mellan varandra. Designen med css var lättaste eftersom vi alla tycker om att design. 
+Javascript var också enkelt. Det som gick mindre bra var att uppgiften behövde mycket 
+förkunskaper till exempel javaskript programmeringsspråk, html, css, docker, databaser 
+och nästan allt. Det tog mycket tid att lära, undersöka och testa alla nya kunskaper 
+tills vi kunde göra den slutliga projektet. Vi frågade senior elever samt vi sökte över 
+nättet och vi läste i stackoverflow. Om vi hade haft mer tid så kunde vi fördjupa oss 
+mer på alla ämnen vi lärde men vi tänkte att vi har i alla fall andra kurser för varje 
+ämne av dem så vi ska fördjupa oss senare i programmet.
+
+Våra erfarenheter om att arbeta med containers: 
+
+Det som gick bra med att arbeta med containers var att det hjälpte seperera applikationer och 
+isolera de och deras beroende. Det som gick mindre bra var att det tog tid att lära hur man 
+kan länka containers så att de kan kommunicera med varandra. För att lösa detta problem så 
+har vi sökt många källor och frågat senior elever. Vi kunda ha förbättrat detta om vi testat 
+det i våra exempel projekt, då skulle vi ha minskar tid. 
