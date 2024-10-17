@@ -88,6 +88,11 @@ you text på
 - added tests 
 Skapade snapshot tester för vår frontend
 
+- Skrev i ingenjörsdagbok
+
+- tog bort onödiga planeringsmap 
+Vi skrev planering i andra sammanfattningars filar
+
 
 Reflektioner: 
 
