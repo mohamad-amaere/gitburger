@@ -1,0 +1,63 @@
+Uppgift 1: 
+1. Namn på alla i teamet: 
+Mohamad Amaere
+Maram Alshbli
+Naya Mathbout 
+Tala Amaere
+Sedra Abodaher
+
+2. Länk: https://github.com/mohamad-amaere/gitburger
+
+3. Sammanfattning om konfigurationshantering: 
+
+- Konfigationshantering är en metod i mjukvaruutvekcling som innebär att man har
+   koll på alla ändringar som tillags eller tas bort från projektet till exempel
+   ändringar i källkoden, i miljöinställningar och i andra delar av projektet.
+
+- Ett exempel på en konfigurationshanterings verktyg är Github
+  Github är en app där gruppmeddlemmar i en projekt kan skapa en
+  gemensamm projekt och lägga alla kodkällor och länkar. Gruppmedlemmar kan göra
+  kommits för att ändringar ska visas till andra gruppmedlemmar. Gruppmedlemmar 
+  kan skapa olika brancher (versioner) av projektet så att de kan ändra olika 
+  delar utan att den original branchen (version) ändras, då slipper de 
+  konflikter som innebär problem som står när ändringarna av två eller flera 
+  gruppmedlemmar är emot varandra. 
+
+- Syftet med konfigurationshantering: 
+  Syftet är att underlätta samarbete där de sammanlagar koder, förbättra felsökning,
+  spara ändringar samt återskapa tidigare versioner av projektet. 
+  
+- Arbetsflödet i git är: 
+  1. Att skapa ett repositorium (projektet) eller skapa kopia av det (clone)
+  2. Skapa en branch för repositit för att slippa massa konflikter
+  3. Göra ändringar och fixa själva koder 
+  4. Göra kommits och push till de kommits 
+  5. Skapa en pull request, förvänta tillstående från andra medlemmar om det 
+     behövs för att de ska få ändringar
+  6. Publicera branchen (publish branch) för att alla i teamet ska se de eller 
+     förvänta pull requesten om det behövs
+  7. Ta in ändringar som andra har gjort genom att använda pull kommandot eller
+     acceptera pull request om det behövs 
+  8. Spara ändringar från branchen i main branchen (huvud version) genom att 
+     använda merge kommandot eller acceptera pull request om det behövs
+
+- De vanligaste git-kommandon som vi har lärt oss är: 
+Kommit: sparar ändringar lokalt
+Push: skickar lokala kommits till branchen
+Pull: tar in ändringar som är gjort av andra gruppmedlemmar
+Pull request: Accepterar ändringar som andra grupp meddlemmar har gjort. 
+Skapa branch: skapar en privat version av main- projektet
+Publish branch: Branchen blir offentlig och alla gruppmedlemmar kan ändra på den
+Merge: förar ändringar i branchen till main-branch
+
+Reflektioner: 
+Det som gick bra var att skapa brancher, kommits och pull vilket gjorde 
+allting så organiserat och hjälpte till att varje meddlem bidrar samt att det
+är lätt att se vilka ändringar som har gjorts istället för att söka efter de 
+själv. Det som gick mindre bra var att ibland om flera medlemmar jobbar i samma
+branch t.ex main, fick vi konflikter som behövdes granskas manuelt. Vi löste dessa
+konflikter genom att sitta tillsammans och anpassa koden och skillnader i våra
+kommits. Vi kunde ha förbättrat vårt arbete genom att göra flera commits och 
+mindre för att hitta konflikter lättare. 
+
+--Alla i teamet satt tillsammans och skrev sammanfattningen--
