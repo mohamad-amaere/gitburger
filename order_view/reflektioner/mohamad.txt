@@ -1,0 +1,56 @@
+Ingenjörsdagbok:
+    Projekt: gitburger:
+
+Commits:
+
+    Commit: Get started
+        Varför: Initiera projektet och skapa en grundläggande projektstruktur.
+        Vad: Skapade ett nytt repository för projektet och lade till nödvändiga filer för att starta utvecklingen.
+
+    Commit: css burger
+        Varför: Börja designa användargränssnittet för burger-sektionen.
+        Vad: Skapade en API-fil och en EJS-fil för burger-komponenten. Detta var nödvändigt för att starta designen och bygga frontend-komponenterna för att visa burgar-menyn.
+
+    Commit: Merge pull request #1 from init-databas
+        Varför: Initiera databasstrukturen för projektet.
+        Vad: Skapade databasmodeller och migreringar för att hantera beställningar, användare och menyer i systemet. Detta steg var kritiskt för att kunna lagra och hantera information om produkter och beställningar.
+
+    Commit: Added cart support
+        Varför: Implementera kundvagnsfunktionalitet för att möjliggöra att användarna kan lägga till produkter innan de går vidare till kassan.
+        Vad: Skapade funktioner för att hantera kundvagnen, såsom att lägga till och ta bort produkter samt uppdatera kvantiteter.
+
+    Commit: Init kitchen view
+        Varför: Implementera en köksvy för att restaurangpersonalen ska kunna se och hantera inkommande beställningar.
+        Vad: Skapade grunden för köksvyn där personalen kan se alla aktiva beställningar och deras status.
+
+    Commit: Added run script for kitchen view
+        Varför: Förenkla arbetsflödet genom att lägga till ett script som automatiskt startar köksvyn.
+        Vad: Implementerade ett "run"-skript i package.json för att snabbt kunna köra köksvyn utan att manuellt starta servern varje gång.
+
+    Commit: Installed nodemon
+        Varför: För att förbättra utvecklingsmiljön genom att automatiskt starta om servern vid kodändringar.
+        Vad: Installerade Nodemon som en dev-dependency för att effektivisera utvecklingen genom att minska behovet av manuell omstart av servern vid varje kodändring
+
+Reflektioner:
+
+
+    Under det här projektet har jag lärt mig mycket om programmering och den arbetsmiljö jag bör anpassa mig till. 
+    Jag har utvecklat mina kunskaper inom HTML, CSS, JavaScript och SQL och fått en tydligare bild av hur det är att arbeta
+    som mjukvaruingenjör. En viktig del av lärandet har varit att hantera och lösa de problem som uppstod under arbetets gång.
+
+    Det mest utmanande var starten. Det fanns många nya koncept att förstå, och ibland tog det flera dagar att greppa små
+    detaljer i programmeringen. En annan utmaning var konflikter som uppstod när vi började med kodningen, vilket vi inte 
+    kunde hantera i början. Lösningen blev att jobba tillsammans hela tiden, ofta på biblioteket. 
+    Vi delade upp uppgifterna mellan oss, lärde oss grunderna först och satte sedan ihop koden för att undvika fler konflikter.
+
+    Samarbetet i gruppen gick däremot smidigt. Vi kunde arbeta bra tillsammans, 
+    vilket gjorde både programmeringsdelen och samarbetet enklare. Att dela upp uppgifterna och hjälpas åt bidrog till 
+    en positiv utveckling både som programmerare och som grupp.
+
+    Vi valde en plan där vi började med att lära oss grunderna innan vi löste uppgifterna steg för steg. 
+    För att skapa en bra struktur och tydliga commits valde vi att utgå från ett gammalt repository och sedan 
+    implementera nya funktioner. Uppgifterna förenklades genom att vi valde att ha endast fem burgare med enkla ingredienser 
+    och en enkel sidstruktur.
+
+    Under projektet fick vi hjälp från nätet, seniorelever och lärare, vilket var värdefullt då vi inte hade någon 
+    erfarenhet vid start. Vi använde Git som konfigurationshanteringssystem och Visual Studio Code (VScode) som utvecklingsmiljö.
