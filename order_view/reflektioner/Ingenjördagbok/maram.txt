@@ -1,13 +1,29 @@
-Sammanfattning av grupparbetet - Beställningssida
+Ingenjörsdagbok - Beställningssida Projekt
 
-Under projektets gång har jag, tillsammans med gruppen, arbetat med att skapa en beställningssida. Mitt bidrag har varit att designa och implementera API
-och säkerställa databasanslutning samt bidra till frontend-implementationen. Några specifika insatser jag gjort inkluderar:
+Jag och min grupp har arbetat vidare med vår beställningssida. Min roll har inneburit flera olika ansvarsområden, inklusive design och implementering av API, säkerställande av databasanslutning samt att bidra till frontend-implementationen. 
+Nedan följer en genomgång av mina specifika insatser och vad jag har fokuserat på:
 
-API-utveckling: Skapade funktionaliteten för att hämta data om burgare genom GetBurger.
-Kodhantering: Gjorde en "pull request" för att sammanföra förändringar med huvudgrenen, vilket inkluderade förbättringar i UI och information om specifika burgare.
-Databashantering: Implementerade en tjänst för databasanslutning, vilket underlättar interaktionen mellan API
-och databasen.
-Databas artitektur: Jag jobbade med gruppen och hade en huvudsaklig roll i designen av vår database, jag tog i åtanken hur vi ska referera dem olika tabellerna till varanadra
-och såg till att det ska vara så enkelt som möjligt för utvecklaren.
-Frontend-design: Bidrog till utformningen av burgerinformationssidan och förbättrade användargränssnittet (UI) för att säkerställa en smidig användarupplevelse.
-Genom att samarbeta med gruppen har vi tagit ett helhetsgrepp om projektet, vilket har inneburit ett stort fokus på både backend och frontend för att skapa en välfungerande och användarvänlig beställningssida.
+API-utveckling: Implementerade GetBurger för att hämta data om våra specifika burgare och se till att data flödar smidigt mellan backend och frontend.
+Kodhantering: Arbetade med att göra "pull requests" för att sammanföra förändringar i huvudgrenen, vilket inkluderade UI-förbättringar och nya informationssidor för specifika burgare.
+Databashantering: Skapade en tjänst för databasanslutning, vilket har förenklat interaktionen mellan vår databas och våra API.
+
+Databasarkitektur: Jag hade en huvudroll i designen av vår databasstruktur. Jag säkerställde att tabellerna refererade till varandra på ett sätt som skulle vara enkelt för utvecklarna att arbeta med och underlätta framtida utveckling.
+Frontend-design: Arbetade med utformningen av burgerinformationssidan, där jag fokuserade på att förbättra användargränssnittet för en bättre användarupplevelse.
+Utmaningar som nybörjare, vi har stött på flera utmaningar under projektet, särskilt i början eftersom vi är nybörjare och saknade erfarenhet. För att komma vidare behövde vi ofta googla och ta hjälp av seniora elever.
+Det blev tydligt att vi behövde bygga upp en grundläggande förståelse för de verktyg och tekniker som projektet krävde. Därför bestämde vi oss för att träna på olika repositories för att bättre förstå hur vi skulle gå vidare med utvecklingen. Efter en period av träning och experiment flyttade vi arbetet till en ny, välorganiserad repository, vilket gav oss en solid grund för vidare utveckling.
+
+Projektbeslut och avgränsningar
+Vi valde att begränsa oss till att skapa API för endast fem burgare och valde bort att inkludera dricka och meny för att hålla projektets omfattning hanterbar. Till varje burgare skapade vi ett specifikt API, vilket gjorde det enklare att hantera data och testa vår lösning. 
+Detta tillvägagångssätt hjälpte oss att förstå varje steg i processen bättre, från databasdesign till frontend-integration.
+
+Vad vi har lärt oss under projektet:
+Under arbetet har jag och gruppen fått en djupare förståelse för flera tekniker och verktyg:
+JavaScript: Vi har lärt oss att använda JavaScript för att hantera dynamiska element på vår beställningssida.
+API: Vi har utvecklat en förståelse för hur API fungerar och hur man bygger dem för att underlätta kommunikationen mellan frontend och backend.
+Databaser: Design och hantering av databaser har blivit mer bekanta för oss, särskilt hur man effektivt lagrar och hämtar data.
+GitHub: Vi har lärt oss att arbeta med GitHub, skapa "pull requests" och hantera kodkonflikter, vilket har varit en viktig del i vårt samarbete som team.
+
+Vad som gick bra:
+Trots utmaningarna lyckades vi arbeta tillsammans på ett bra sätt. Vårt samarbete i gruppen var smidigt, och vi hade inga personliga konflikter. 
+Vi hade en öppen dialog och alla bidrog aktivt till projektet. De enda konflikter som uppstod var tekniska, främst i form av kodkonflikter när vi skulle sammanfoga vårt arbete i GitHub. 
+Att lösa dessa utmaningar gav oss en större förståelse för versionshantering och hur man säkrar en stabil kodbas för gruppens arbete.

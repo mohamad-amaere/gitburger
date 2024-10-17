@@ -45,10 +45,11 @@ Start:
 - Vi skapade en map som heter "Reflektioner" och skapde filer för alla under den dessa filer ska vara 
   våra ingengörsdagboker. 
 
-Data basen (MenuStore):
+Data basen (orderview):
+- Vi valde namnet orderview istället för menustore.
 - Vi konfigrerade my SQL på våra datorer för att göra data baser. Vi skapade en data 
 bas som innehåller tabeller för meny, beställningar och deras ingredienser.
-En er-modell på vår tabell finns under katelogen orderview, under filen diagram.png
+En modell på vår tabell finns under katelogen orderview, under filen diagram.png
 
 
 - Vi skapade en katalog för "BurgerOrder", en för 
