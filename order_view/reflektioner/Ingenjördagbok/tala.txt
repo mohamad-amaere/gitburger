@@ -1,0 +1,47 @@
+Vi började den här uppgiften med väldigt lite erfarenhet av de teknologier som skulle användas, så vi valde att först träna på de olika komponenterna
+innan vi började med det faktiska projektet. Detta bidrog till att arbetet tog lite längre tid än förväntat, men det gav oss en bättre förståelse för 
+de olika delarna och hur vi kunde arbeta tillsammans effektivt.
+
+En medlem i gruppen skapade ett repository på GitHub, där vi sedan alla deltog för att bidra till projektet. Vi använde Visual Studio Code (VSC) 
+tillsammans med GitHub för versionshantering och samarbete, vilket hjälpte oss att hålla koll på våra commits och ändringar under utvecklingen.
+
+Vi delade upp arbetet i olika delar och gjorde commit-förändringar kontinuerligt för att kunna samarbeta effektivt. Gruppen valde att fokusera på 
+att utveckla ett system med fem olika hamburgare, där varje hamburgare hade en enkel ingredienslista. Vi valde också att inte inkludera menyer 
+eller drycker i första versionen, för att hålla projektet mer hanterbart och fokuserat på det vi ville lära oss.
+Projektet krävde att vi använde JavaScript för att implementera frontend-delen av systemet och API
+för att hantera beställningar och visa köksvyn. Att integrera backend och frontend visade sig vara en utmaning för oss, men det gav oss mycket 
+värdefull erfarenhet av hur API-anrop fungerar och hur data flödar mellan systemkomponenterna.
+Trots att vi delade upp arbetet i olika delar, satt vi ofta tillsammans för att diskutera problem och försöka lösa dem gemensamt. Vi ville 
+säkerställa att alla förstod vad som pågick i projektet, så vi var hela tiden öppna för att hjälpa varandra och förbättra våra delar.
+
+
+Mitt ansvar och mina bidrag:
+Jag hade ansvar för flera olika delar av både frontend och backend under projektets gång. Här är några av mina huvudsakliga uppgifter:
+
+Skapade huvudmenyn (Menu.ejs):
+Jag byggde en enkel menyejs-sida där grunderna för vår projektsida lades upp, inklusive sidtiteln och HTML-strukturen.
+Utvecklade API för Vs Burger (GitBurger.ejs):
+
+Jag utvecklade ett API som gjorde det möjligt att visa information om burgarna i sektionen "Vs Burger", vilket lade grunden för vår burgardesign.
+Implementerade sökfunktion för burgare (index.ejs):
+
+Jag designade en funktion där användare kunde söka efter burgare med hjälp av ett ID. Resultatet visade relevant information såsom burgarnamn och pris.
+Byggde API för att hantera kundvagn och beställningar:
+
+Jag skapade ett API som gjorde det möjligt för användare att lägga till varor i kundvagnen och genomföra beställningar. Det inkluderade även funktioner 
+för att anpassa ingredienser för varje burgare.
+Utvecklade köksvyn och API för att visa beställningar:
+
+Jag byggde ett API som hanterar visningen av beställningar i köket, och utvecklade frontend för köksvyn där personalen kan se beställningar och de 
+ingrediensanpassningar som gjorts. 
+
+Reflektion:
+Samarbetet mellan oss var effektivt, och vi kunde dela upp arbetet på ett bra sätt. En utmaning var dock att vi inledningsvis inte hade en tydlig 
+förståelse för vad uppgiften innebar, vilket ledde till att vi spenderade mycket tid på att söka efter nödvändig information. Under processen har 
+vi tränat mycket, och vi fick även ställa frågor till vår lärare och seniora elever, vilket var till stor hjälp.
+
+Till slut skapade vi ett repository och tränade på det innan vi byggde upp projektet i ett annat repository. En annan utmaning var att det tog lång 
+tid för mig att hänga med och förstå uppgiften, men i slutändan lyckades vi. Inledningsvis hade vi också många konflikter i det första repositoryt 
+eftersom vi inte visste hur man arbetar med brancher. Vi gjorde alltid commits tillsammans, vilket resulterade mycket konflikter. Men när vi lärde
+oss om brancher och började använda dem korrekt, minskade konflikterna avsevärt.
+ 
