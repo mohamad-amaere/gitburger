@@ -1,11 +1,15 @@
 Projektsnsamn: GitBurger
-Git server: GitHub
-texteditor: VScode
+_______________________________________________________________________________________________________
 
 planering: 
-- Vi ska skapa projektet och filer
-- Vi ska installera npm packet som behövs
+- Vi bestämde att använda github som konfigrationshanteringssystem.
+- Vi valde VScode som vår texteditior. 
+- Vi har ingen erfarenhet av projektets förkunskaper så vi ska undersöka, lära och även 
+  träna i andra repo tills vi känner oss nöjda att göra den slutliga projektet. 
+- Vi ska installera npm packet som behövs. 
 - Vi har bestämmt att använda JavaScript för att den är mest passade programmeringsspråk 
+- Vi bestämde att göra 5 burgare i vår meny eftersom det är enklare. 
+________________________________________________________________________________________________________
 
 Menyn: 
 - Chichen Burger
@@ -26,13 +30,13 @@ Ingredienser:
 - Mayo
 - Fish
 - Chicken
+_________________________________________________________________________________________________________
 
 De första veckorna: 
 Jag och mitt grupp läste uppgiften och lärde oss begrepp som vi inte kunde innan till exempel git, 
 api-ändpunkt, administrativverktyg, SQL, containers osv.
 Vi skapade en test projekt och vi har testat skapa de olika filer för att träna på GitHub och kommandon. 
 Detta tog flera veckor. 
-
 
 Arbetetslog: 
 
@@ -44,18 +48,18 @@ Start:
 Data basen (MenuStore):
 - Vi konfigrerade my SQL på våra datorer för att göra data baser. Vi skapade en data 
 bas som innehåller tabeller för meny, beställningar och deras ingredienser.
-En er-modell på vår tabell finns under katelogen orderview, under filen er-diagram.png
+En er-modell på vår tabell finns under katelogen orderview, under filen diagram.png
 
 
- vi skapade en katalog för "BurgerOrder", en för 
+- Vi skapade en katalog för "BurgerOrder", en för 
   "KitchenView" och samt två dockerfil för våra APIer
 - Vi skapade en fil som är docker-compose.yml som speciferar de olika containers och 
   hur de är beroende av varandra
 
 Burger Order: 
 - Vi skapade html sida för BurgerOrder där vi designar BurgerOrder där varutyper presenteras för kunder. 
-  Varje varutyp har en små knapp med dess namn. Vi designade den också med css. Varje varutyp kunden kan trycka på för att 
-  anpassa ingredienser. -- 
+  Varje varutyp har en små knapp med dess namn. Vi designade den också med css. Varje varutyp kunden kan 
+  trycka på för att anpassa ingredienser.  
 - När kunden trycker på knappen, dyker upp en lisa av ingredienser med kryssrutor där kunden kan ta bort
   ingredienser som hen vill. Sen skickar kunden beställningen till kundvagnen och BurgerOrder sidan 
   dyker upp tillbaka. 
@@ -69,6 +73,7 @@ KitchenView:
 
 Testing: 
 - vi gjorde unittester på våra aplikationer med hjälp av Jest
+_________________________________________________________________________________________________________
 
 
 Commits som jag gjorde: 
@@ -93,17 +98,23 @@ Skapade snapshot tester för vår frontend
 - tog bort onödiga planeringsmap 
 Vi skrev planering i andra sammanfattningars filar
 
+- skapade sammanfattningars map 
+vi la sammanfattningar i sitt eget fil 
+_________________________________________________________________________________________________________
 
 Reflektioner: 
 
-Jag lärde mig att använda git framför allt, Javascript, html, css, att skapa 
-unittester, databaser och att använda docker. Det som gick bra var att vi alla 
-gjorde allt tillsammans genom att sitta tillsammans och lära allt och sedan 
-vi delade upp arbetet. Sammarbetet gjorde allt lättare. Det som gick mindre bra 
-var att vi stöttade på många saker som vi hade ingen erfarenhet med. Projektet
-och kursen behöver mycket förkunskaper som vi hade inte. Vi löste dessa svårigheter
-genom att lära oss allt från början och en del i taget. Vi gjorde en exempel 
-projekt vilket gjorde det lättare för oss att göra slutliga projektet. Vi kunde
-ha förbättrat projektet genom att göra flera meny varor till exempel och skriva
-beskrivning till varje burgare och kanske förbättra designen men vi ska ha flera
-fördjupande kurser i allt detta senare i programmet. 
+Vi var i närheten av varandra nästan hela tiden. Vi alla studerade och gjorde 
+uppgifter tillsammans. Jag lärde mig att använda git framför allt, Javascript, 
+html, css, att skapa unittester, databaser och att använda docker. Det som gick 
+bra var att vi alla gjorde allt tillsammans genom att sitta tillsammans och 
+lära allt och sedan vi delade upp arbetet. Sammarbetet gjorde allt lättare. Det 
+som gick mindre bra var att vi stöttade på många saker som vi hade ingen 
+erfarenhet med Projektetoch kursen behöver mycket förkunskaper som vi hade inte.
+Vi skapade APIer för varje burgare innan vi upptäkte att vi kan koppla dem med 
+databasen. Vi löste dessa svårigheter genom att lära oss allt från början och en 
+del i taget. Vi gjorde en exempel projekt vilket gjorde det lättare för oss att 
+göra slutliga projektet. Vi kunde ha förbättrat projektet genom att göra flera 
+meny varor till exempel och skriva beskrivning till varje burgare och kanske 
+förbättra designen men vi ska ha flera fördjupande kurser i allt detta senare i 
+programmet. 

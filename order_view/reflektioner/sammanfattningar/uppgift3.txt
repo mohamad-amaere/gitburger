@@ -1,0 +1,39 @@
+1. Namn på alla i teamet: 
+Mohamad Amaere
+Maram Alshbli
+Naya Mathbout 
+Tala Amaere
+Sedra Abodaher
+
+2. Länk: https://github.com/mohamad-amaere/gitburger
+
+
+3. Funktionalitet som har testats: 
+När det kom till tester så fokuserade vi mest på expermintella tester pågrund av att vi är inte riktigt bekanta med testing och visste inte ens vad det innebär, så i början med tanke på att projekt utvecklingen tar längst tid så fokuserade vi mest på det, och då hade dokumenterat testing steg som vi ska följa vid varje ändring, och det är som följande:
+
+- testa att programmen fungerar
+- order_view
+   - se till att vi får in alla hamburgare från databasen
+   - Testa sökningen och se till att det ger resultat som är korrekt
+   - Testa klicka på burgaren och se till att burger information öppnas korrekt
+   - Testa lägga till en burgare till varukorgen och sen testa lägga till en till men med redigerade ingredienser
+   - Testa att placera order och då bör man redigeras till thank you sidan
+- kitchen view
+   - placera en order i order view och se till att det kommer korrekt till kitchen view
+
+Om testerna ger inte önskade resultat: 
+- vi skulle debugga och se varför. 
+
+Kommits: 
+- added tests
+
+6. Våra erfarenhet: 
+Det som gick bra var att Jest hade ganska bra dokumentationer. Det som gick mindre bra var att vi har aldrig jobbar med test innan. Vi löste problem genom att söka om testning ramverk. Vi kunde har gjort annorlunda genom att träna mer på testing men 
+vi ska ha en hel kurs för testing senare i programmet, då kan vi lära oss mer om det. 
+ 
+Debugging session: 
+Vi gjorde inget debugg session men vi lärde oss dessa knapparna: 
+"Continue": Förtsätt köra programmet tills nästa brytpunkt, stanna inte i nån steg
+"Step over": exekvera detta steg och fortsätt debugga nästa rad
+"Step into": exekvera detta steg djupare till exempel hoppa in i funktionen (om det finns)
+"Step out": lämna funktionen och hoppa till nästa steg
