@@ -2,60 +2,103 @@ Projektsnsamn: GitBurger
 Git server: GitHub
 texteditor: VScode
 
-planering: Mohamad ska skapa projektet och filer
-           Sedra ska installera json packet som behövs
-           ... ska skapa en fil där alla api punkter ligger. 
-           API som vi ska skapa:  
-           - en api för meny, en för slutlig beställning (BurgerOrder)
-           - en för varje burgare där användaren kan ändra på sin beställning
-           - en för KitchenView 
-           ... ska fixa databaser 
-           Efter att ha skapat allt detta, vi ska skapa en barnch för varje person 
-              så att vi bara skriver på det vi har ansvaret vår i vår branch och på 
-              detta sättet slipper vi ha konflikter
+planering: 
+- Vi ska skapa projektet och filer
+- Vi ska installera npm packet som behövs
+- Vi har bestämmt att använda JavaScript för att den är mest passade programmeringsspråk 
+
+Menyn: 
+- Chichen Burger
+- Cheese Burger
+- Hamburger
+- Fish Burger
+- Veggie Burger
+
+Ingredienser: 
+- Cheese
+- Beef
+- Lettuce
+- Tomato
+- Onion
+- Pickles 
+- Ketchup
+- Mustard 
+- Mayo
+- Fish
+- Chicken
 
 De första veckorna: 
-Jag och mitt grupp läste uppgiften och lärde oss begrepp som vi inte kunde innan. 
-Vi skapade en text projekt och vi har testat skapa de olika filer 
-  för att träna på GitHub och kommandon. 
+Jag och mitt grupp läste uppgiften och lärde oss begrepp som vi inte kunde innan till exempel git, 
+api-ändpunkt, administrativverktyg, SQL, containers osv.
+Vi skapade en test projekt och vi har testat skapa de olika filer för att träna på GitHub och kommandon. 
 Detta tog flera veckor. 
 
-27 september 2024: 
-Mohamad skapade projektet i Github och skickade länken. 
-Han skapade en map som heter "Reflektioner" och skapde filer för alla under den
-  dessa filer ska vara våra ingengörsdagboker. 
-Mohamad skapade också en textfil som heter "planering"
 
-1 october 2024: 
-Jag accepterade invitation för projektet och öppnade den. 
-Jag tog bort textfilen "planering". 
-Jag skapade en map istället som heter "planering" och filer för varje varutyp under den
-  för att jag tänkte att det är mer effektivt att ha en textfil för varje varutyp 
-  istället för bara en textfil samt vi slipper få konflikter som kan uppstå om vi 
-  alla skriver på en och samma fil. 
-Jag gjorde en commit för textfilen som jag raderade och mapen som jag skapade med 
-textfiler under. 
-Commit som jag gjorde: 
-"titel: skapa textfiler och planerings map
- varför: det är mer effektivt att ha en hel map för planering istället för en textfil
- vad: tog bort planerings textfil, skapade en planeringsmap samt en textfil för varje burgare"
+Arbetetslog: 
 
-Alla har gjort sina enga APIer för sina egna burgare
-Alla skapade en ejs fil under Views map för sina egna burgare
-commit som jag gjorde: 
-titel: API 
-vad: skapade en API för mitt burgare, skapade en ejs.fil för 
-     denna API under Views map
-varför: För att jag ska skriva ändringar som användaren kan göra i mitt
-        burgares API 
+Start:
+- Vi skapade projektet i Github och skickade länken till alla. 
+- Vi skapade en map som heter "Reflektioner" och skapde filer för alla under den dessa filer ska vara 
+  våra ingengörsdagboker. 
 
-Jag upptäkta att jag råkade skapa en ny reflektions map med en fil som heter naya.text
-  som är exakt samma fil som redan finns under original reflektions map så jag 
-  raderade den nya mappen och gjorde commit 
-commit jag gjorde: 
-titel: raderade en map
-vad: raderade en map som jag råkat göra
-varför: jag har redan filen under en annan map
+Data basen (MenuStore):
+- Vi konfigrerade my SQL på våra datorer för att göra data baser. Vi skapade en data 
+bas som innehåller tabeller för meny, beställningar och deras ingredienser.
+En er-modell på vår tabell finns under katelogen orderview, under filen er-diagram.png
 
-commit: 
-skrev i mitt ingengördagbok
+
+ vi skapade en katalog för "BurgerOrder", en för 
+  "KitchenView" och samt två dockerfil för våra APIer
+- Vi skapade en fil som är docker-compose.yml som speciferar de olika containers och 
+  hur de är beroende av varandra
+
+Burger Order: 
+- Vi skapade html sida för BurgerOrder där vi designar BurgerOrder där varutyper presenteras för kunder. 
+  Varje varutyp har en små knapp med dess namn. Vi designade den också med css. Varje varutyp kunden kan trycka på för att 
+  anpassa ingredienser. -- 
+- När kunden trycker på knappen, dyker upp en lisa av ingredienser med kryssrutor där kunden kan ta bort
+  ingredienser som hen vill. Sen skickar kunden beställningen till kundvagnen och BurgerOrder sidan 
+  dyker upp tillbaka. 
+- Vi skapade knappen för kundvagnen som sparar beställningar och skickar dem till KitchenView. knappen
+  som visas kundkorgen finns i alla sidor
+- Vi tog symbolen för kundkorgen från googles icons. 
+
+KitchenView: 
+- Vi skapade en server för KitchenView som ska ta beställningar från BurgerOrder. 
+- När man går in i kitchen view ser man beställningar och deras anpassningar 
+
+Testing: 
+- vi gjorde unittester på våra aplikationer med hjälp av Jest
+
+
+Commits som jag gjorde: 
+
+- skspa textfiler och planerings map
+Jag skapade mappar för att skriva i vårt ingenjördagboker och sammanfattningar
+men sen bestämmde vi att skriva de i canvas istället för i projektens. 
+
+- restructure project and add docker
+Jag flyttade orginala koden till olika monorepo för att underlätta arbetet och 
+tillåta oss att skapa en kitchen view mapp också
+
+- added thank you page 
+När beställningen är klar så ska användaren redigeras till ett sida med thank 
+you text på
+
+- added tests 
+Skapade snapshot tester för vår frontend
+
+
+Reflektioner: 
+
+Jag lärde mig att använda git framför allt, Javascript, html, css, att skapa 
+unittester, databaser och att använda docker. Det som gick bra var att vi alla 
+gjorde allt tillsammans genom att sitta tillsammans och lära allt och sedan 
+vi delade upp arbetet. Sammarbetet gjorde allt lättare. Det som gick mindre bra 
+var att vi stöttade på många saker som vi hade ingen erfarenhet med. Projektet
+och kursen behöver mycket förkunskaper som vi hade inte. Vi löste dessa svårigheter
+genom att lära oss allt från början och en del i taget. Vi gjorde en exempel 
+projekt vilket gjorde det lättare för oss att göra slutliga projektet. Vi kunde
+ha förbättrat projektet genom att göra flera meny varor till exempel och skriva
+beskrivning till varje burgare och kanske förbättra designen men vi ska ha flera
+fördjupande kurser i allt detta senare i programmet. 
