@@ -58,7 +58,7 @@ Requirements:
 Start the application from the project root:
 ```bash
 docker compose up
-
+```
 # Author
 
 This project is made by a group of 5 students. Sedra Abou Daher, Tala Amaere, Mohamad Amaere, Naya Mathbout, Maram Alshabli.
